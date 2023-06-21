@@ -1,0 +1,162 @@
+/* Estilos generales */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Estilos de la barra de navegación */
+
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+}
+
+/* Estilos de la sección hero */
+
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(img/tienda.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  padding: 100px;
+  color: #000;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+/* Estilos de la sección de productos destacados */
+
+.featured-products {
+  text-align: center;
+  padding: 50px;
+}
+
+.featured-products h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.product {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.product img {
+  width: 200px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 18px;
+  color: #888;
+}
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+/* Estilos para el apartado de contacto */
+.contact {
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.contact label {
+  margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #45a049;
+}
+
